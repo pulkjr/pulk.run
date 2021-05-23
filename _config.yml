@@ -75,16 +75,16 @@ footer:
 collections:
   recipes:
     output: true
-    permalink: /:collection/:name
+    permalink: /:collection/:path/
   proofs:
     output: true
-    permalink: /:collection/:name
+    permalink: /:collection/:path/
   crums:
     output: true
-    permalink: /:collection/:name
+    permalink: /:collection/:path/
   breads:
     output: true
-    permalink: /:collection/:name
+    permalink: /:collection/:path/
 
 defaults:
   # _recipes
@@ -95,7 +95,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
       share: true
       related: true
   # _proofs
@@ -106,7 +105,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
       share: true
       related: true
   # _crums
@@ -117,7 +115,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
       share: true
       related: true
   # _breads
@@ -128,7 +125,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
       share: true
       related: true
   # _pages
