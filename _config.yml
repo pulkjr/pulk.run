@@ -47,6 +47,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-archives
 
 author:
   name: "Joseph Pulk"
@@ -141,3 +142,12 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+jekyll-archives:
+  enabled: all
+  layout: archive
+  permalinks:
+    year: "/:year/"
+    month: "/:year/:month/"
+    day: "/:year/:month/:day/"
+    tag: "/tag/:name/"
+    category: "/category/:name/"
