@@ -72,6 +72,20 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/pulkjr"
 
+collections:
+  recipes:
+    output: true
+    permalink: /:collection/:path/
+  proofs:
+    output: true
+    permalink: /:collection/:path/
+  crums:
+    output: true
+    permalink: /:collection/:path/
+  breads:
+    output: true
+    permalink: /:collection/:path/
+
 defaults:
   # _recipes
   - scope:
