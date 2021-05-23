@@ -75,16 +75,16 @@ footer:
 collections:
   recipes:
     output: true
-    permalink: /:collection/:path/
+    permalink: /:collection/:name
   proofs:
     output: true
-    permalink: /:collection/:path/
+    permalink: /:collection/:name
   crums:
     output: true
-    permalink: /:collection/:path/
+    permalink: /:collection/:name
   breads:
     output: true
-    permalink: /:collection/:path/
+    permalink: /:collection/:name
 
 defaults:
   # _recipes
