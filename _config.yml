@@ -3,11 +3,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "My Lab Endeavor"
+title: "The Bread Runner"
 description: >- # this means to ignore newlines until "baseurl:"
   For years I have talked about writing a book. I've talked but nothing comes of items
   I start writing and then life happens. I find a piece of information and write it down...
   Yup where did I put that? Alright I'm writing it all in git.
+url: "https://www.pulk.run"
 twitter_username: pulkjr
 github_username: pulkjr
 minimal_mistakes_skin: dark
@@ -50,37 +51,64 @@ plugins:
 author:
   name: "Joseph Pulk"
   avatar: "/assets/images/bio-photo.jpg"
-  bio: "God Fearing, Husband, Father, American"
+  bio: "God Fearing, Husband, Father, American, My views are my own."
   links:
-    - label: "Website"
+    - label: "pulk.run"
       icon: "fas fa-fw fa-link"
-      url: "https://"
+      url: "https://www.pulk.run"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/pulkjr"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/pulkjr"
 
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/pulkjr"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/pulkjr"
 
 defaults:
-  # _posts
+  # _recipes
   - scope:
-      path: ""
+      path: "_recipes"
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _proofs
+  - scope:
+      path: "_proofs"
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _crums
+  - scope:
+      path: "_crums"
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _breads
+  - scope:
+      path: "_breads"
       type: posts
     values:
       layout: single

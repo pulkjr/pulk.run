@@ -1,5 +1,7 @@
 ---
 title: "Post: Notice"
+sidebar:
+  nav: "docs"
 categories:
   - Blog
 tags:
