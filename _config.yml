@@ -76,7 +76,7 @@ defaults:
   # _recipes
   - scope:
       path: "_recipes"
-      type: posts
+      type: recipes
     values:
       layout: single
       author_profile: true
@@ -87,7 +87,7 @@ defaults:
   # _proofs
   - scope:
       path: "_proofs"
-      type: posts
+      type: proofs
     values:
       layout: single
       author_profile: true
@@ -98,7 +98,7 @@ defaults:
   # _crums
   - scope:
       path: "_crums"
-      type: posts
+      type: crums
     values:
       layout: single
       author_profile: true
@@ -109,7 +109,7 @@ defaults:
   # _breads
   - scope:
       path: "_breads"
-      type: posts
+      type: breads
     values:
       layout: single
       author_profile: true
