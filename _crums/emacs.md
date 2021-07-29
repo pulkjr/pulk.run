@@ -1,10 +1,11 @@
 ---
-title: "emacs?"
+title: "Doom Emacs"
 last_modified_at: 2021-05-23T05:28:36-05:00
 categories:
   - crums
 tags:
   - emacs
+  - doomemacs
 ---
 ### Occur Mode (search for occurances)
 <kbd>M</kbd> + <kbd>s</kbd> <kbd>o</kbd> = Enter occur mode
@@ -29,3 +30,6 @@ tags:
 
 ### Widen the buffer
 <kbd>ctrl</kbd> + <kbd>x</kbd> <kbd>n</kbd> <kbd>w</kbd>
+
+### Copy from a selection
+<kbd>ctrl</kbd> + <kbd>SPCx</kbd>  
