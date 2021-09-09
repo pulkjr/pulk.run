@@ -7,6 +7,10 @@ tags:
   - tmux
 ---
 ## Key bindings
+
+### Default Prefix
+`ctrl` + <kbd>b</kbd> 
+
 ### Search the buffer:
 `prefix` + <kbd>[</kbd> = Enter copy mode
 `ctrl` + <kbd>s</kbd> = To search (like emacs)
